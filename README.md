@@ -1,10 +1,15 @@
 # faye-openrendu
-Servidor faye para suportar chat real time do Openredu
+Servidor utilizando a gem faye para o chat em tempo real do Openredu
 
-### Dependencias
-- \> ruby 2.4.0
-- gem faye
-- gem puma
+### Dependências
+> ruby dev-2.4.0
+> gem faye
+> gem puma
 
-### Para rodar o servidor
-> rackup -s puma -E production config.ru
+### Executando o servidor
+Dentro da pasta, execute
+
+```
+$ bundle install
+$ bash run.sh
+```
