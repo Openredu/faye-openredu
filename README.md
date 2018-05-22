@@ -1,10 +1,13 @@
 # faye-openrendu
-Servidor faye para suportar chat real time do Openredu
+Servidor utilizando a gem faye para o chat em tempo real do Openredu
 
-### Dependencias
-- \> ruby 2.4.0
-- gem faye
-- gem puma
+### Dependências
+> Docker
+> Docker Compose
+> [DNS Proxy Server (For development)](https://github.com/mageddo/dns-proxy-server)
 
-### Para rodar o servidor
-> rackup -s puma -E production config.ru
+### Executando
+```bash
+sudo docker-compose build
+sudo docker-compose up
+```
