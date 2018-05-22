@@ -1,0 +1,9 @@
+version: '3'
+services:
+  faye:
+    build: .
+    volumes:
+      - .:/app
+    hostname: faye
+    ports:
+      - '9292:9292'
