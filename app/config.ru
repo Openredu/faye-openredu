@@ -20,7 +20,7 @@ class ServerAuth
   end
 end
 
-app = Faye::RackAdapter.new(:mount => '/faye', :timeout => 25) do |bayeux|
+app = Faye::RackAdapter.new(:mount => '/faye', :timeout => 100) do |bayeux|
   @users = Set.new
   @users_channels = {}
 
