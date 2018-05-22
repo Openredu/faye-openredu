@@ -1,4 +1,4 @@
-# faye-openrendu
+# faye-openredu
 Servidor utilizando a gem faye para o chat em tempo real do Openredu
 
 ### Dependências
